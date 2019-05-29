@@ -32,11 +32,11 @@ Pod::Spec.new do |s|
 
 
 #s.source_files = 'Rkeyboard/**/*.{xib,plist.swift}'
-s.source_files = 'Rkeyboard/Rkeyboard/*.{xib,plist.swift}'
-#,
+s.source_files = 'Classes/*.{xib,plist.swift}'
+#'Classes/*.{h,m}'
 
    s.resource_bundles = {
-     'Rkeyboard' => ['Rkeyboard/**/Media.xcassets/**/*.png']
+     'Rkeyboard' => ['Classes/Media.xcassets/**/*.png']
    }
 
 end
