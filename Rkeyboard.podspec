@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Rkeyboard'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'you can easily add custom keyboard in your app. it is highly recommandable'
 
 # This description is used to generate tags and improve search results.
